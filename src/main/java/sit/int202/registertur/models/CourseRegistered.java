@@ -5,6 +5,9 @@
  */
 package sit.int202.registertur.models;
 
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletResponse;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -18,9 +21,11 @@ public class CourseRegistered {
     private Map<Integer, List<Subject>> registeredSubjects = new HashMap<>();
 
     public void registerSubject(int semester, Subject subject) {
+
         if (registeredSubjects.get(semester)==null) {
             registeredSubjects.put(semester, new ArrayList<>());
         }
+
         registeredSubjects.get(semester).add(subject);
     }
     public void removeAllRegisteredCourse(int semester) {

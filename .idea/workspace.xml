@@ -10,33 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ea0fab-f6d1-4294-ab79-57d18a542eca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/registerTur_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/registerTur_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/registertur/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/registertur/models/CourseRegistered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/registertur/models/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/registertur/models/Semester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/registertur/models/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/registertur/servlet/CourseListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/registertur/servlet/CourseRegisterHistoryServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/registertur/servlet/RegisterCourseServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/course_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test_css_jstl.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/user_registered.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/registertur/servlet/SetThemeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/set-theme.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sit/int202/registertur/models/CourseRegistered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sit/int202/registertur/models/CourseRegistered.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sit/int202/registertur/servlet/CourseListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sit/int202/registertur/servlet/CourseListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sit/int202/registertur/servlet/RegisterCourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sit/int202/registertur/servlet/RegisterCourseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/course_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/course_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/user_registered.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user_registered.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +90,54 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58016" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -142,6 +172,7 @@
       <workItem from="1695716695616" duration="4591000" />
       <workItem from="1695955837591" duration="1944000" />
       <workItem from="1696314513962" duration="1055000" />
+      <workItem from="1696316329441" duration="9236000" />
     </task>
     <servers />
   </component>

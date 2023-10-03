@@ -6,7 +6,7 @@
 <%--    <link rel="stylesheet" type="text/css" href="assets/bootstrap-4.5/css/bootstrap.min.css"/>--%>
     <link rel="stylesheet" type="text/css" href="assets/bootstrap-4.5/css/bootstrap.min.css"/>
 </head>
-<body>
+<body style="background-color: ${bg_color}">
 <div class="container m-auto bg-light w-75">
     <div class="row w-100 h2">Coures List ::</div>
     <div class="row w-100">
@@ -42,7 +42,9 @@
                         <div class="col-6">${subject.title}</div>
                         <div class="col-1">${subject.credit}</div>
                         <div class="col-1">
-                            <input type="checkbox" name="registeredSubjects" value="${subject.subjectId}">
+                            <input type="checkbox" name="registeredSubjects" value="${subject.subjectId}"
+                            ${semesterSubjects[subject.subjectId] ? 'checked' : ''}
+                            />
                         </div>
                     </div>
                 </c:forEach>

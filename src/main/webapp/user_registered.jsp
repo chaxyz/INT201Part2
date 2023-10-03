@@ -11,15 +11,24 @@
 <head>
     <title>Title</title>
 </head>
-<body>
-<c:forEach items="${courseRegistered.history}" var="entry">
-    <h3>Semeter ${entry.key}</h3>
-    <hr>
-    <c:forEach items="${entry.value}" var="subject">
-        ${subject.subjectId}, ${subject.title}, ${subject.credit}<br>
-    </c:forEach> ----------------------------<br><br>
-</c:forEach>
-
+<body style="background-color: ${bg_color}">
+<h2>Course Registered</h2><hr>
+<c:if test="${message != null}">
+    <h3 style="color: red">${message}</h3>
+    <c:set var="link" value="course-list"/>
+</c:if>
+<c:if test="${massage==null}">
+    <c:forEach items="${courseRegistered.history}" var="entry">
+        <h3>Semeter ${semeters[entry.key]}</h3>
+        <hr>
+        <c:forEach items="${entry.value}" var="subject">
+            ${subject.subjectId}, ${subject.title}, ${subject.credit}<br>
+        </c:forEach> ----------------------------<br><br>
+    </c:forEach>
+        <c:set var="link" value="index.jsp"/>
+</c:if>
+<hr>
+<a href="${link}"><botton>OK</botton></a>
 
 </body>
 </html>
