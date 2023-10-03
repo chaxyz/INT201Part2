@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="registerTur:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>registerTur</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="registerTur-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="registerTur:war exploded" />
+    </root>
+  </artifact>
+</component>
